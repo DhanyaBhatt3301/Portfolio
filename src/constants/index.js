@@ -13,15 +13,20 @@ import {
   nodejs,
   mongodb,
   git,
+  stripe,
+  prisma,
+  postgresql,
   figma,
   docker,
   aahvan,
   voxx,
   ShikShakShopLogo,
+  CaseUpLogo,
   pioneer,
   VoxxCover,
   AahvanCover,
   ShikShakShopCover,
+  CaseUpCover,
   carrent,
   jobit,
   tripguide,
@@ -103,9 +108,34 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "stripe",
+    icon: stripe,
+  },
+  {
+    name: "prisma",
+    icon: prisma,
+  },
+  {
+    name: "postgresql",
+    icon: postgresql,
+  },
 ];
 
 const experiences = [
+  {
+    title: "Personalized Phone Case",
+    company_name: "CaseUp",
+    icon: CaseUpLogo,
+    iconBg: "#E6DEDD",
+    date: "2024",
+    points: [
+      "Case Up enables users to generate custom made personalized phone case designs.",
+      "Built with Typescript, Next.js, React, Tailwind CSS, and PostgreSQL, Prisma ORM & Neon Tech PostgreSQL provider for fast & scalable data storage.",
+      "Stripe Payment Gateway for secure and reliable payment session management.",
+      "Prisma ORM and UploadThings to store data on local storage and faster data retrieving strategies.",
+    ],
+  },
   {
     title: "Messaging Web App",
     company_name: "Voxx",
@@ -190,6 +220,44 @@ const testimonials = [
 
 const projects = [
   {
+    name: "CaseUp",
+    description:
+      "Developed a full-stack web application using Next.js, React.js, Tailwind CSS, Prisma, and TypeScript. Enabled users to upload custom images for personalized phone cases, and integrating Stripe for payments and Kinde for authentication.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redis",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: CaseUpCover,
+    source_code_link: "https://github.com/Dhanya3301/caseup",
+    deployed_link: "https://caseup-woad.vercel.app/",
+  },
+  {
     name: "Voxx",
     description:
       "Web-based real time messaging application that allows users to communicate over text messages. Google based account authentication helps secure user privacy.",
@@ -260,7 +328,7 @@ const projects = [
   {
     name: "Aahvan 2k23",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a dynamic and interactive website using HTML5, CSS3 & Javascript for my college's tech fest event, featuring event schedules, registration forms, and multimedia galleries. The site enhanced user engagement with a responsive and interactive design, effectively promoting the fest and facilitating participant involvement.",
     tags: [
       {
         name: "HTML5",
