@@ -8,6 +8,7 @@ import VoxxCover from "./VoxxCover.png";
 import ShikShakShopCover from "./ShikShakShopCover.png";
 import AahvanCover from "./AahvanCover.png";
 import CaseUpCover from "./CaseUpCover.png";
+import CollaberaLogo from "./company/CollaberaLogo.png";
 import favicon from "./favicon.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -53,6 +54,7 @@ export {
   AahvanCover,
   ShikShakShopCover,
   CaseUpCover,
+  CollaberaLogo,
   favicon,
   backend,
   creator,

@@ -8,7 +8,6 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
@@ -16,8 +15,6 @@ import {
   stripe,
   prisma,
   postgresql,
-  figma,
-  docker,
   aahvan,
   voxx,
   ShikShakShopLogo,
@@ -27,9 +24,7 @@ import {
   AahvanCover,
   ShikShakShopCover,
   CaseUpCover,
-  carrent,
-  jobit,
-  tripguide,
+  CollaberaLogo,
   threejs,
 } from "../assets";
 
@@ -124,6 +119,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Database engineer intern",
+    company_name: "Collabera",
+    icon: CollaberaLogo,
+    iconBg: "#E6DEDD",
+    date: "June -July 2024",
+    points: [
+      "Worked as a Database engineering intern on prjects at Collabera Digital",
+      "Understood and mastered the power of RDBMS at large scale.",
+      "Worked with technologies like SQL and MS SQL Server.",
+      "Learnt about the workings of a corporate culture and working in the IT department.",
+    ],
+  },
+  {
     title: "Personalized Phone Case",
     company_name: "CaseUp",
     icon: CaseUpLogo,
@@ -176,19 +184,19 @@ const experiences = [
       "This project provided hands-on experience in web development and design, fostering skills applicable to future projects and opportunities.",
     ],
   },
-  {
-    title: "Company Website",
-    company_name: "Pioneer",
-    icon: pioneer,
-    iconBg: "#383E56",
-    date: "2022",
-    points: [
-      "Created a business company website using HTML, CSS, and JavaScript to showcase products/services and enhance online presence.",
-      "Applied SEO techniques to optimize the website, resulting in increased visibility and reach for the business, attracting more customers.",
-      "Through this project, gained valuable experience in web development and SEO, leading to employment with a company.",
-      "The improved online presence and SEO strategies contributed to the business's growth and expansion, fostering greater customer engagement and opportunities.",
-    ],
-  },
+  // {
+  //   title: "Company Website",
+  //   company_name: "Pioneer",
+  //   icon: pioneer,
+  //   iconBg: "#383E56",
+  //   date: "2022",
+  //   points: [
+  //     "Created a business company website using HTML, CSS, and JavaScript to showcase products/services and enhance online presence.",
+  //     "Applied SEO techniques to optimize the website, resulting in increased visibility and reach for the business, attracting more customers.",
+  //     "Through this project, gained valuable experience in web development and SEO, leading to employment with a company.",
+  //     "The improved online presence and SEO strategies contributed to the business's growth and expansion, fostering greater customer engagement and opportunities.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
